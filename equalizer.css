@@ -1,0 +1,419 @@
+body{
+    margin: 0%;
+    background-color: #f2f2f2;
+}
+.container{
+    width: 375px;
+}
+.circle1{
+    background-color: #FF7B40;
+    width: 282px;
+    height: 282px;
+    border-radius: 100%;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    filter: blur(67.957px);
+}
+.circle2{
+    background-color: #40FFF6;
+    width: 282px;
+    height: 282px;
+    border-radius: 100%;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    filter: blur(67.957px);
+    position: absolute;
+    left: 159px;
+    top:  -104px;;
+
+}
+.circle3{
+    background-color: #FF9201;
+    width: 282px;
+    height: 282px;
+    border-radius: 100%;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    filter: blur(67.957px);
+    position: absolute;
+    left: 159px;
+    top: 94.6px;
+}
+.logo{
+    position: absolute;
+    width: 146.09px;
+    height: 32px;
+    left: 24.15px;
+    top: 39.99px;
+}
+.pattern1{
+    visibility: hidden;
+}
+.txt1{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    position: absolute;
+    width: 327px;
+    height: 144px;
+    left: 24px;
+    top: 136px;
+}
+.txt2{
+
+    position: absolute;
+    width: 327px;
+    height: 156px;
+    margin-left: 24px;
+    top: 330px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.container2{
+    z-index: 1;
+
+}
+.dark-bg{
+    position: absolute;
+    width: 375px;
+    height: 600px;
+    background: #191826;
+    border-radius: 12px;
+    top: 645px;
+}
+.pattern2{
+    position: absolute;
+    top: 645px;
+    left: 40px;
+    
+
+}
+.phone{
+    width: 200px;
+    height: 430px;
+    position: absolute;
+    top:580px;
+    left: 80px;
+}
+.orange-bg{
+    position: absolute;
+    background: #FA7453;
+    width: 375px;
+    height: 546px;
+    border-radius: 12px;
+    top: 920px;
+    z-index: 2;
+}
+.txt3{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FCFAF9;
+    margin-left: 36px;
+    margin-top: 48px;
+}
+.txt4{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FCFAF9;
+    margin-left: 36px;
+    width: 302px;
+    height: 140px;
+}
+.txt5{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    margin-left: 42px;
+    margin-top: 36px;
+    color: #FCFAF9;
+}
+.txt6{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    height: 32px;
+    color: #FCFAF9;
+    margin-top: -85px;
+    margin-left: 137px;
+
+}
+.button1{
+    width: 296px;
+    height: 61px;
+    background-color: #191826;
+    color: #FCFAF9;
+    border: none;
+    border-radius: 12px;
+    margin-left: 42px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.button1:hover{
+    background-color: #66E2DC;
+}
+.button2{
+    width: 296px;
+    height: 61px;
+    background-color: #FCFAF9;
+    color: #191826;
+    border: none;
+    border-radius: 12px;
+    margin-left: 42px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.button2:hover{
+    background-color: #FFB964;
+}
+.txt7{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: -25px;
+    margin-left: 20px;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+.icon{
+    width: 15px;
+    height: 17px;
+    margin-top: 20px;
+    margin-left: 63px;
+}
+.logo2{
+    position: absolute;
+    width: 146.09px;
+    height: 32px;
+    left: 25px;
+    top:1612px
+}
+.txt8{
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    top:1676px;
+    left:25px;
+    position: absolute;
+    width: 327px;
+    height: 105px;
+}
+.txt9{
+    font-weight:bolder;
+}
+.container3{
+    position: absolute;
+    top: 1845px;
+    left: 24px;
+}
+.icon1{
+    cursor: pointer;
+    width: 20px;
+}
+.icon1:hover{
+    filter: invert(50%) sepia(8%) saturate(2457%) hue-rotate(335deg) brightness(100%) contrast(89%);
+}
+button{
+    border: none;
+    background: transparent;
+}
+@media screen and (min-width:376px) {
+    .container{
+        width: 768px;
+
+    }
+    .logo{
+        margin-left: 25px;
+        margin-top: 60px
+    }
+    .circle2{
+        top:140px;
+        left:300px;
+    }
+    .circle3{
+        top:310px;
+        left: 350px;
+    }
+    .pattern1{
+        visibility: visible;
+        position: absolute;
+        width: 265px;
+        height: 400px;
+        top: 0px;
+        left: 503px;
+    }
+    .txt1{
+        width: 520px;
+        height: 192px;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 64px;
+        margin-left: 20px;
+    }
+    .txt2{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 28px;
+        width: 500px;
+        height: 112px;
+        margin-top: 110px;
+        margin-left: 45px;
+    }
+    .dark-bg{
+        width:696px;
+        height: 600px;
+        margin-left: 33px;
+    }
+    .orange-bg{
+        width: 400px;
+        height: 546px;
+        left:272px;
+        top: 1100px
+    }
+    .phone{
+        width: 270.21px;
+        height: 556px;
+        left: 120px;
+    }
+    .pattern2{
+        left: 300px
+    }
+    .txt8{
+        width: 366px;
+        height: 80px;
+    }
+    .container3{
+        left: 600px;
+        top: 1690px;
+    }
+}
+@media screen and (min-width:768px) {
+    .bg{
+        width: 1440px;
+    }
+    .logo{
+        width: 147px;
+        height: 32px;
+        left: 166px;
+        top:62px;
+    }
+    .circle2{
+        left: 900px;
+        top: 100px;
+    }
+    .circle3{
+        left: 900px;
+        top: 350px;
+    }
+    .pattern1{
+        left: 1128px;
+    }
+    .txt1{
+        width: 1015px;
+        height: 176px;
+        font-weight: 700;
+        font-size: 88px;
+        line-height: 88px;
+        left:165px;
+        top: 221px;
+    }
+    .txt2{
+        width: 825px;
+        height: 102px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 34px;
+        margin-left: 185px;
+        margin-top:200px
+    }
+    .dark-bg{
+        width: 1110px;
+        height: 600px;
+        margin-left: 165px;
+        top: 860px;
+    }
+    .phone{
+        width: 280px;
+        height: 606px;
+        left: 283px;
+        top: 666px;
+    }
+    .pattern2{
+        left: 525px;
+        top:765px
+    }
+    .orange-bg{
+        width: 446px;
+        height: 625px;
+        left: 734px;
+        top: 1100px;
+    }
+    .txt3{
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 52px;
+        margin-left: 52px;
+    }
+    .txt4{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 34px;
+        margin-left: 52px;
+        width: 333px;
+    }
+    .txt5{
+        font-weight: 700;
+        font-size: 65px;
+        line-height: 52px;
+        margin-left: 52px;
+        margin-top: 60px;
+    }
+    .button1{
+        width: 333px;
+        height: 61px;
+        margin-left: 54px;
+        margin-top: 40px;
+    }
+    .button2{
+        width: 333px;
+        height: 61px;
+        margin-left: 54px;
+        margin-top: 40px;
+    }
+    .logo2{
+        width: 146.09px;
+        height: 32px;
+        left: 167px;
+        top: 1600px;
+    }
+    .txt8{
+        width: 366px;
+        height: 80px;
+        left: 450px;
+        top: 1600px;
+    }
+    .container3{
+        top: 1600px;
+        left:1100px;
+    }
+}
